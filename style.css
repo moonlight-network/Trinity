@@ -1,0 +1,76 @@
+@keyframes fade{
+  0%{
+    display: none;
+    opacity: 0;
+  }
+  1%{
+    display:unset;
+    opacity: 0.01;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0% left;
+  padding-left: 0%;
+  background-image: url('https://idp.tasd7.net/adfs/portal/illustration/illustration.jpg');
+}
+#bar{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 4%;
+  background: linear-gradient(90deg, #ff00f07e, #0050ff7e);
+  backdrop-filter: blur(3px);
+  border-radius: 0px 0px 15px 15px;
+  z-index: 100;
+}
+.barbtn{
+  height: 100%;
+  border: none;
+}
+button{
+  border-radius: 15px;
+  transition: all 250ms
+}
+button:hover{
+  opacity: 0.5;
+}
+.winbox {
+    background: linear-gradient(90deg, #ff00f07e, #0050ff7e);
+    backdrop-filter: blur(3px);
+    border-radius: 12px 12px 0 0;
+    box-shadow: 1px ;
+}
+.winbox.min{
+  position: absolute;
+  top:5px;
+}
+.hidden{
+  animation-name: fade;
+  animation-direction: reverse;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+*{
+  animation-name: fade;
+  animation-duration: 200ms;
+}
+#menu{
+  position: absolute;
+  top: 5%;
+  left: 0px;
+  width: 15%;
+  height: 15%;
+  background: linear-gradient(90deg, #ff00f07e, #0050ff7e);
+  backdrop-filter: blur(3px);
+  border-radius: 15px 15px 15px 15px;
+  z-index: 100;
+  overflow: scroll;
+  margin: left 10%;
+  
+}
