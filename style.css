@@ -28,6 +28,7 @@ html {
   backdrop-filter: blur(3px);
   border-radius: 0px 0px 15px 15px;
   z-index: 100;
+  box-shadow: 0px 1px 20px;
 }
 .barbtn{
   height: 100%;
@@ -41,10 +42,10 @@ button:hover{
   opacity: 0.5;
 }
 .winbox {
-    background: linear-gradient(90deg, #ff00f07e, #0050ff7e);
-    backdrop-filter: blur(3px);
-    border-radius: 12px 12px 0 0;
-    box-shadow: 1px ;
+  background: linear-gradient(90deg, #ff00f07e, #0050ff7e);
+  backdrop-filter: blur(3px);
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0px 1px 20px;
 }
 .winbox.min{
   position: absolute;
@@ -72,5 +73,16 @@ button:hover{
   z-index: 100;
   overflow: scroll;
   margin: left 10%;
+  box-shadow: 0px 1px 20px;
   
+}
+.mitem{
+  width: 100%;
+  background-color: #00000000;
+  border-radius: 0px;
+  border-bottom: line;
+  border-top: line;
+  border-left: none;
+  border-right: none;
+  text-align: left;
 }

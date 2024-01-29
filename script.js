@@ -12,11 +12,15 @@ const smenu = document.getElementById("menu")
 function menu(){
   if(document.getElementById("menu").hidden == false){
     smenu.hidden = true
-    console.log("It should hide")
+    console.log("The menu should hide")
   }
   else{
     smenu.hidden = false
-    console.log("It should show")
+    console.log("The menu should show")
   }
 
+}
+smenu.onclick = function(){
+  smenu.hidden=true
+  console.log("The menu should hide and whatever was clicked should do something")
 }
