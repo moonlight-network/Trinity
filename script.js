@@ -24,3 +24,12 @@ smenu.onclick = function(){
   smenu.hidden=true
   console.log("The menu should hide and whatever was clicked should do something")
 }
+function Aero(){
+  console.log("Should do something")
+  if(document.getElementById("theme").href.includes("themes/frutiger.css") == false){
+    document.getElementById("theme").href = "themes/frutiger.css"
+    console.log("Should switch to the Frutiger Aero theme")
+  }else{
+    document.getElementById("theme").href = "themes/default.css"
+  }
+}
