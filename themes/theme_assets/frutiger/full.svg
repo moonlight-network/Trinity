@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+	<title>download (2)-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,96,-96,0,48,0)">
+			<stop offset="0" stop-color="#0021a3"/>
+			<stop offset=".75" stop-color="#076ecf"/>
+			<stop offset="1" stop-color="#0b477f"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: none;stroke: #ffffff;stroke-linejoin: round;stroke-width: 6.5 } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<path id="Layer 1" class="s0" d="m96 96h-96v-96h96z"/>
+	<path id="Shape 1" class="s1" d="m12 12h72v72h-72z"/>
+	<path id="↑" class="s2" d="m16.1 26.4v-9.3l1.1-1.1 9.2 0.1v2.8h-5.4l14.3 14.3-2 2-14.3-14.3v5.5z"/>
+	<path id="↑ copy 2" class="s2" d="m69.9 16h9.2l1.1 1.1v9.2h-2.9l0.1-5.5-14.4 14.4-2-2 14.4-14.4h-5.5z"/>
+	<path id="↑ copy 3" class="s2" d="m80.2 69.9v9.2l-1.1 1.1h-9.2v-2.9l5.5 0.1-14.4-14.4 2-2 14.4 14.4v-5.5z"/>
+	<path id="↑ copy" class="s2" d="m26.5 80.2h-9.3l-1.1-1 0.1-9.3h2.8v5.5l14.3-14.4 2 2-14.3 14.4h5.5z"/>
+</svg>

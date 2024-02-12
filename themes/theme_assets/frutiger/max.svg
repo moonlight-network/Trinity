@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+	<title>download (3)-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,96,-96,0,48,0)">
+			<stop offset="0" stop-color="#0021a3"/>
+			<stop offset=".75" stop-color="#076ecf"/>
+			<stop offset="1" stop-color="#0b477f"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path id="Layer 1" class="s0" d="m96 96h-96v-96h96z"/>
+	<path id="Layer" class="s1" d="m20 71.3c-4.7-1.6-8-6.1-8-11.3v-40c0-6.6 5.4-12 12-12h40c5.2 0 9.7 3.3 11.3 8h-51.3c-2.2 0-4 1.8-4 4z"/>
+	<path id="Layer" fill-rule="evenodd" class="s1" d="m80 88h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm0-8c2.2 0 4-1.8 4-4v-40c0-2.2-1.8-4-4-4h-40c-2.2 0-4 1.8-4 4v40c0 2.2 1.8 4 4 4z"/>
+</svg>

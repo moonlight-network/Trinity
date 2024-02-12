@@ -16,7 +16,7 @@ html {
   width: 100%;
   margin: 0% left;
   padding-left: 0%;
-  background: linear-gradient(180deg, #0050ff7e, #00ff917e 75%, #00b8537e 75.00000000000001%, #003f65 100%);
+  background: linear-gradient(180deg, #0050ff7e, #00ff917e 75%, #003f657e 75.1%, #00b853 100%);
 }
 #bar{
   position: absolute;
@@ -24,9 +24,8 @@ html {
   right: 0px;
   width: 100%;
   height: 4%;
-  background: linear-gradient(0deg, #0050ff7e, #00ff917e 50%, #00b8537e 50.1%, #003f65 100%);
+  background: linear-gradient(180deg, #0050ff7e, #00ff917e 75%, #003f657e 75.1%, #00b853 100%);
   border-radius: 0px 0px 15px 15px;
-  z-index: 100;
   box-shadow: 0px 1px 20px;
 }
 .barbtn{
@@ -43,17 +42,49 @@ button:hover{
   opacity: 0.5;
 }
 .winbox {
-  background: linear-gradient(180deg, #0050ff7e, #00ff917e 5%, #00b8537e 5.1%, #003f65 10%);
+  background: #00000000;
   border-radius: 15px;
   box-shadow: 0px 1px 20px;
+  backdrop-filter: ;
+}
+.wb-header {
+  background: linear-gradient(180deg, #0050ff7e, #00ff917e 75%, #003f657e 75.1%, #00b853 100%);
+  border-radius: 15px 15px 0 0;
+  backdrop-filter: hue-rotate(30deg) contrast(-40%);
 }
 .wb-body{
   border-radius: 0px 0px 15px 15px;
 }
-.winbox.min{
-  position: absolute;
-  top:5px;
+.wb-control{
+  padding-right: 2%;
+  
 }
+.wb-min{
+  background: url("theme_assets/frutiger/min.svg") no-repeat;
+  border-radius: 8px 0 0 8px;
+}
+.wb-max{
+  background: url("theme_assets/frutiger/max.svg") no-repeat;
+}
+.wb-full{
+  background: url("theme_assets/frutiger/full.svg") no-repeat;
+}
+.wb-close{
+  background: url("theme_assets/frutiger/close.svg")no-repeat;
+  border-radius: 0px 8px 8px 0px;
+}
+.wb-min, .wb-max, .wb-full, .wb-close{
+  
+  background-size: 100%;
+  height: 80%;
+  background-position: center;
+  padding: 4px;
+  margin-right: 0%;
+}
+.wb-min:hover, .wb-max:hover, .wb-full:hover, .wb-close:hover{
+  filter: saturation(100%);
+}
+
 .hidden{
   animation-name: fade;
   animation-direction: reverse;
@@ -63,6 +94,7 @@ button:hover{
 *{
   animation-name: fade;
   animation-duration: 200ms;
+  transition: all 200ms;
 }
 #menu{
   position: absolute;
