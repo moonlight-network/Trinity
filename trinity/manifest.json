@@ -1,0 +1,19 @@
+{
+"name": "Trinity",
+"description": "Developed by NXX99, Trinity is an Unblocked OS of sorts.",
+"version": "1.0.0",
+"manifest_version": 2,
+"icons": {
+"128": "icon_128.png",
+"64": "icon_64.png",
+"32": "icon_32.png"
+},
+"app": {
+"urls": [
+"https://nxx99.github.io/Trinity/"
+],
+"launch": {
+"web_url": "https://nxx99.github.io/Trinity/"
+}
+}
+}

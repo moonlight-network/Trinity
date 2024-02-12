@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analog Clock</title>
+  <style>
+    .clock {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border: 10px solid #333;
+      border-radius: 50%;
+    }
+    .hour, .minute, .second {
+      position: absolute;
+      width: 50%;
+      height: 2px;
+      background: #000;
+      top: 50%;
+      transform-origin: 100%;
+      transition: all 0.5s ease-in-out;
+    }
+    .hour {
+      background: #000;
+    }
+    .minute {
+      background: #000;
+    }
+    .second {
+      background: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="clock">
+    <div class="hour" id="hour"></div>
+    <div class="minute" id="minute"></div>
+    <div class="second" id="second"></div>
+  </div>
+  <script>
+    function runClock(){
+      const hour = document.getElementById('hour');
+      const minute = document.getElementById('minute');
+      const second = document.getElementById('second');
+
+      const date = new Date();
+      const hr = date.getHours() % 12;
+      const min = date.getMinutes();
+      const sec = date.getSeconds();
+
+      let hrPosition = (hr * 360 / 12) + (min * (360 / 60) / 12);
+      let minPosition = (min * 360 / 60) + (sec * (360 / 60) / 60);
+      let secPosition = sec * 360 / 60;
+
+      hour.style.transform = `rotate(${hrPosition}deg)`;
+      minute.style.transform = `rotate(${minPosition}deg)`;
+      second.style.transform = `rotate(${secPosition}deg)`;
+    }
+
+    runClock();
+    setInterval(runClock, 1000);
+  </script>
+</body>
+</html>

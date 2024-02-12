@@ -1,9 +1,10 @@
-function newWindow(src, title="Untitled Window", ico="", wclass="modern", width, height, x="center", y="center"){
+function newWindow(src, title="Untitled Window", ico="", width, height, x="center", y="center"){
   let win = new WinBox({
     url: src,
     title: title,
     icon: ico,
-    class: wclass,
+    width: width,
+    height:height,
     x:x,
     y:y,
   })
