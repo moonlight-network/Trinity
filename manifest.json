@@ -1,47 +1,50 @@
 {
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
   "name": "Trinity",
+  "orientation": "any",
+  "scope": "/",
   "short_name": "Trinity",
-  "description": "Developed by NXX99 and the Moonlight Network, Trinity is an Unblocked OS of sorts.",
-  "version": "1.0.0",
-  "manifest_version": 2,
+  "start_url": "https://moonlight-network.github.io/Trinity/",
+  "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "icon_32.png",
+      "src": "./logo.png",
+      "type": "image/png",
+      "sizes": "720x720"
+    },
+    {
+      "src": "./icon_32.png",
       "type": "image/png",
       "sizes": "32x32"
-   },
+    },
     {
-      "src": "icon_64.png",
+      "src": "./icon_64.png",
       "type": "image/png",
       "sizes": "64x64"
-   },
+    },
     {
-      "src": "icon_128.png",
+      "src": "./icon_128.png",
       "type": "image/png",
       "sizes": "128x128"
-   },
+    },
     {
-      "src": "icon_256.png",
+      "src": "./icon_256.png",
       "type": "image/png",
       "sizes": "256x256"
-   },
-   {
-      "src": "icon_512.png",
+    },
+    {
+      "src": "./icon_512.png",
       "type": "image/png",
       "sizes": "512x512"
-   },
-   {
-      "src": "icon_1024.png",
+    },
+    {
+      "src": "./icon_1024.png",
       "type": "image/png",
       "sizes": "1024x1024"
-   }
-]
-  "app": {
-    "urls": [
-      "https://moonlight-network.github.io/Trinity/"
-    ],
-    "start_url": "https://moonlight-network.github.io/Trinity/"
-  },
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+    },
+  ],
+  "id": "ty",
+  "description": "Developed by NXX99 and the Moonlight Network, Trinity is an Unblocked OS of sorts."
 }
