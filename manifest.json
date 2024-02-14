@@ -1,6 +1,14 @@
 {
   "name": "Trinity",
   "short_name": "Trinity",
+  "description":"Developed by NXX99 and the Moonlight Network, Trinity an OS-like website dedicated to granting access to blocked websites, games, and more.",
+  "categories":[
+    "Unblocked",
+    "Games",
+    "Gaming",
+    "School"
+  ],
+  "id":"ty",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "fullscreen",
