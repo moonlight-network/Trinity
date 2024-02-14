@@ -4,18 +4,38 @@
   "description": "Developed by NXX99 and the Moonlight Network, Trinity is an Unblocked OS of sorts.",
   "version": "1.0.0",
   "manifest_version": 2,
-  "icons": {
+  "icons": [
+    {
+      "src": "icon_32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+   },
+    {
+      "src": "icon_64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+   },
     {
       "src": "icon_128.png",
       "type": "image/png",
       "sizes": "128x128"
    },
-   {
-      "src": "icon_64.png",
+    {
+      "src": "icon_256.png",
       "type": "image/png",
-      "sizes": "64x64"
+      "sizes": "256x256"
+   },
+   {
+      "src": "icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+   },
+   {
+      "src": "icon_1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
    }
-  },
+]
   "app": {
     "urls": [
       "https://moonlight-network.github.io/Trinity/"
